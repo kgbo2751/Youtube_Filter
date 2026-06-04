@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>YouTube Smart Filter</title>
+</head>
+<body>
+
+    <h1>🎥 유튜브 개인 맞춤 필터 시스템</h1>
+
+    <form method="POST">
+        <p>검색어</p>
+        <input type="text" name="query">
+
+        <p>포함 키워드</p>
+        <input type="text" name="include">
+
+        <p>제외 키워드</p>
+        <input type="text" name="exclude">
+
+        <p>
+            <input type="checkbox" name="ml">
+            AI 필터 사용
+        </p>
+
+        <button type="submit">검색</button>
+    </form>
+
+    <hr>
+
+    {% for v in videos %}
+        <div style="margin-bottom:20px;">
+            <h3>{{ v.title }}</h3>
+            <iframe width="400" height="250"
+                src="https://www.youtube.com/embed/{{ v.videoId }}">
+            </iframe>
+        </div>
+    {% endfor %}
+
+</body>
+</html>

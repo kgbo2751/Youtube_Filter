@@ -1,4 +1,4 @@
-Python(Visual Studio Code) + HTML/CSS/JavaScript + Flask + Scikit-learn  
+Visual Studio Code + Python + HTML/CSS/JavaScript + Flask + Scikit-learn  
 <img width="1919" height="1030" alt="구조" src="https://github.com/user-attachments/assets/d13ab692-f1d6-4fcc-91c2-18315f192bbd" />
 <img width="982" height="537" alt="유튜브 api" src="https://github.com/user-attachments/assets/3b5eec01-6cf8-47ea-91b1-9b74bd7eadda" />
 <br><br>
